@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rapat Polri 2020</string>
+    <string name="session_label">Session</string>
+    <string name="about_label">About</string>
+    <string name="announce_label">Announcement</string>
+    <string name="map_label">Floormap</string>
+    <string name="rapat_polri">Latkapuan Kabsudit Siber</string>
+    <string name="session_ongoing">ON GOING</string>
+</resources>

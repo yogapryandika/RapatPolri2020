@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/session_fragment">
+
+    <fragment
+        android:id="@+id/session_fragment"
+        android:name="com.example.rapatpolri2020.view.session.SessionFragment"
+        android:label="Rapat Polri"
+        tools:layout="@layout/fragment_session"/>
+
+    <fragment
+        android:id="@+id/about_fragment"
+        android:name="com.example.rapatpolri2020.view.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about"/>
+
+    <fragment
+        android:id="@+id/announcement_fragment"
+        android:name="com.example.rapatpolri2020.view.announcement.AnnouncementFragment"
+        android:label="Announcement"
+        tools:layout="@layout/fragment_announcement"/>
+
+    <fragment
+        android:id="@+id/floormap_fragment"
+        android:name="com.example.rapatpolri2020.view.floormap.FloormapFragment"
+        android:label="Floormap"
+        tools:layout="@layout/fragment_floormap"/>
+
+
+</navigation>
